@@ -40,7 +40,14 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
+    year: "2025 - present",
+    role: "Frontend Developer",
+    company: "Casava Microinsurance Limited",
+    description: `Creating a seamless and intuitive user experience for all of the company's digital products. , Building web applications for policy administration and management, utilizing React and Typescript. Collaborated with product managers and UX/UI designers to define technical requirementsand translate design concepts into high-quality code. Drove performance optimization initiatives, resulting in a 40% improvement in page loadtimesFrontend`,
+    technologies: ["Javascript", "Typescript", "React.js", "Next.js"],
+  },
+  {
+    year: "2024 - 2025",
     role: "Frontend Developer",
     company: "Hoops Technologies",
     description: `Engineered a dynamic reward wheel creation and management dashboard, enabling users toeasily configure and deploy interactive reward systems for diverse campaigns, utilizing React and Typescript. Collaborated with product managers and UX/UI designers to define technical requirementsand translate design concepts into high-quality code. Drove performance optimization initiatives, resulting in a 40% improvement in page loadtimesFrontend`,
@@ -51,16 +58,31 @@ export const EXPERIENCES = [
     role: "Frontend Developer",
     company: "Revent Technologies",
     description: `Contributed to the development of a core banking solution using Reactjs and Typescript.implemented a micro-frontend architecture thereby improving scalability and maintainability.Developed and maintained comprehensive unit and integration tests using Jest and ReactTesting Library, ensuring high code quality.`,
-    technologies: ["HTML", "CSS", "Reactjs", "ExpressJs", "Tailwind", "Jest","Typescript"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "Reactjs",
+      "ExpressJs",
+      "Tailwind",
+      "Jest",
+      "Typescript",
+    ],
   },
   {
     year: "2020 - 2025",
     role: "Full Stack Developer",
     company: "ALML GROUP",
     description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["HTML", "CSS", "Reactjs", "Node.js", "tailwind", "postgres", "expressjs"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "Reactjs",
+      "Node.js",
+      "tailwind",
+      "postgres",
+      "expressjs",
+    ],
   },
- 
 ];
 
 export const CONTACT = {
