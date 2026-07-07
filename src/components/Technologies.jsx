@@ -9,6 +9,7 @@ import {
 import { RiReactjsLine } from "react-icons/ri";
 import { SiExpress } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaPython } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -47,6 +48,14 @@ const Technologies = () => {
           className=""
         >
           <BiLogoTailwindCss className="text-7xl text-[#36b7f0]" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(2.5)}
+          className=""
+        >
+          <FaPython className="text-7xl text-[#ffff00]" />
         </motion.div>
         <motion.div
           initial="initial"

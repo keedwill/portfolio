@@ -1,6 +1,20 @@
 const yearsOfExperience = calculateExperience(2020);
-export const HEAD_CONTENT = `Hey there! I'm a Frontend Developer with ${yearsOfExperience} years of hands-on experience, passionate about creating beautiful and functional interfaces across various frontend technologies like React and Next.js. I specialize in developing scalable and maintainable frontends that offer exceptional user experiences and robust functionality`;
+export const HEAD_CONTENT = `Hey there! I'm a Software Engineer with ${yearsOfExperience} years of hands-on experience, building scalable, user-focused web applications and modern frontend systems using technologies like React, Next.js, and TypeScript. I'm now specializing in AI Engineering, where I combine my software development expertise with large language models (LLMs), AI agents, LangChain, LangGraph, RAG, and modern AI APIs to build intelligent, production ready applications. I'm passionate about creating AI powered products that are not only technically robust but also deliver intuitive and impactful user experiences.`;
 export const PROJECTS = [
+  {
+    title: "AI Football Analyst",
+    url: "https://aifootball-frontend.onrender.com/",
+    image: "https://i.imgur.com/hD6Hy1D.png",
+    description:
+      "AI Football Analyst is an AI powered application that analyzes football matchups between two teams, including club vs club, using large language models to generate tactical insights, match predictions, player analysis, and key statistics",
+    technologies: [
+      "python",
+      "Reactjs",
+      "Fastapi",
+      "langchain",
+      "google gemini",
+    ],
+  },
   {
     title: "Showfindr",
     url: "https://showfindr.co/",
